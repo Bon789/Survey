@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2c1d372198.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div style="height: 200px;text-align: center; padding-top: 50px;position: relative; width: 1200px;border-radius: 10px;background-image: url(Asserts/janko-ferlic-sfL_QOnmy00-unsplash.jpg); background-size: cover;">
+    <h1 style="color: #FFFFFF;">LIBRARY SURVEY</h1>
+    <p style="color: #FFFFFF;">Helps us improve your local library</p>
+</div>
+<form action=""> 
+    <div style="display: flex; flex-direction: row; gap: 50px; background-color: #FFFFFF;align-items: baseline;">
+    <div class="details1" style="margin: 0px;color: #FFFFFF;">
+        <div class="heading-with-icon" style="display: flex; flex-direction: column;align-items: center; ">
+            <i class="fa fa-user"></i>
+        <h3>Personal details</h3>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" class="input_field">
+
+        <label for="email">Email address</label>
+        <input type="email" placeholder="Enter your email address" class="input_field">
+
+        <label for="age">Age</label>
+        <input type="text" placeholder="Enter your age" class="input_field">
+
+        </div>
+    </div>
+    <div class="detail" style="width: 650px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.41); max-height: 1000px;">
+    <div class="details">
+        <div class="icon2" style="font-size: 5rem;">
+            <i class="fa-sharp-duotone fa-solid fa-clipboard-list" ></i> 
+        <h3>General infromation</h3>
+        </div>
+
+        <label for="number_of_days" class="content">How often do you visit the library?</label>
+        <select name="number_of_days" id="number_of_days"class="input_field2">
+            <div>
+            <option value="" selected disabled hidden>Select</option>
+            <option value="">Very often</option>
+            <option value="">Not often</option>
+        </div>  
+        </select>
+        <label for=""  class="content">When you visit, are you usually able to find what you are looking for?</label>
+        <div class="radio_container">
+            <input type="radio" name="time" id="visit_time">
+            <label for="visit_time">Always</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="radio" name="time" id="visit_time">
+            <label for="visit_time">Sometimes</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="radio" name="time" id="visit_time">
+            <label for="visit_time">Rarely</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="radio" name="time" id="visit_time">
+            <label for="visit_time">Never</label>
+        </div>
+
+        <label for="reason"  class="content">What is your primary purpose for visiting the library?</label>
+
+        
+
+        <div class="radio_container">
+            <input type="checkbox" name="reason" id="reason">
+            <label for="reason">to study</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="checkbox" name="reason" id="reason">
+            <label for="reason">to use computers</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="checkbox" name="reason" id="reason">
+            <label for="reason">to borrow books</label>
+        </div>
+
+        <div class="radio_container">
+            <input type="checkbox" name="reason" id="reason">
+            <label for="reason">to do reasearch</label>
+        </div>
+        <label for="describe"  class="content">Are there any specific resources or collections that you feel are missing from the library?</label>
+        <textarea placeholder="Type here" cols="1" rows="10"  class="input_field4"></textarea>
+    </div>
+    <div class="button-container">
+        <input type="submit" value="SUBMIT" class="submit-button">
+    </div>
+</div>
+</div>
+</form>
+</body>
+</html>
