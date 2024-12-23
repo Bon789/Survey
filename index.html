@@ -10,12 +10,12 @@
 
 </head>
 <body>
-    <div style="height: 200px;text-align: center; padding-top: 50px;position: relative; width: 1200px;border-radius: 10px;background-image: url(Asserts/janko-ferlic-sfL_QOnmy00-unsplash.jpg); background-size: cover;">
+    <div class="heading">
     <h1 style="color: #FFFFFF;">LIBRARY SURVEY</h1>
     <p style="color: #FFFFFF;">Helps us improve your local library</p>
 </div>
 <form action=""> 
-    <div style="display: flex; flex-direction: row; gap: 50px; background-color: #FFFFFF;align-items: baseline;">
+    <div class="cont">
     <div class="details1" style="margin: 0px;color: #FFFFFF;">
         <div class="heading-with-icon" style="display: flex; flex-direction: column;align-items: center; ">
             <i class="fa fa-user"></i>
@@ -33,22 +33,24 @@
 
         </div>
     </div>
-    <div class="detail" style="width: 650px;box-shadow: 0 0 10px rgba(0, 0, 0, 0.41); max-height: 1000px;">
+    <div class="detail">
     <div class="details">
-        <div class="icon2" style="font-size: 5rem;">
+        <div class="icon2" style="font-size: 3rem;">
             <i class="fa-sharp-duotone fa-solid fa-clipboard-list" ></i> 
         <h3>General infromation</h3>
         </div>
 
         <label for="number_of_days" class="content">How often do you visit the library?</label>
         <select name="number_of_days" id="number_of_days"class="input_field2">
-            <div>
+            <div class="selection">
             <option value="" selected disabled hidden>Select</option>
             <option value="">Very often</option>
             <option value="">Not often</option>
         </div>  
         </select>
+        <div>
         <label for=""  class="content">When you visit, are you usually able to find what you are looking for?</label>
+    </div>
         <div class="radio_container">
             <input type="radio" name="time" id="visit_time">
             <label for="visit_time">Always</label>
@@ -96,7 +98,7 @@
         <textarea placeholder="Type here" cols="1" rows="10"  class="input_field4"></textarea>
     </div>
     <div class="button-container">
-        <input type="submit" value="SUBMIT" class="submit-button">
+        <input type="submit" value="Submit" class="submit-button">
     </div>
 </div>
 </div>
