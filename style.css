@@ -163,7 +163,7 @@ body{
   position: relative; 
   width: 1200px;
   border-radius: 10px;
-  background-image: url(/Asserts/janko-ferlic-sfL_QOnmy00-unsplash.jpg); 
+ background-image: url(./Asserts/janko-ferlic-sfL_QOnmy00-unsplash.jpg); 
   background-size: cover;
 }
 .selection{
